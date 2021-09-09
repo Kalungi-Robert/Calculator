@@ -1,0 +1,57 @@
+  
+.cal{
+	padding-bottom: 5px;
+	padding-left: 15px;
+	background-color: skyblue;
+	margin-left: 500px;
+	margin-top: 300px;
+	width: 250px;
+	border-radius: 5px;
+}
+.cal h1{
+	padding-left: 5px;
+	font-size: 15px;
+	top: 10px;
+	text-shadow: 4px 4px 4px 4px black;
+	color: red;
+	font-family: sans-serif;
+}
+.clrbtn{
+	background-color: red;
+	width: 91%;
+	margin: 2px;
+	font-size: 20px;
+	font-weight: bold;
+	border-top: none;
+	border-radius: 5px;
+	padding-left: px;
+
+}
+.clrbtn:hover{
+		box-shadow: 0px 4px 5px 0px;
+
+}
+.btn{
+	background-color: green;
+	width: 50px;
+	margin: 2px;
+	font-size: 25px;
+	font-weight: bold;
+	border-top: none;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+input[type=text] {
+	text-align: right;
+	font-size: 20px;
+	 width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+.btn:hover{
+	box-shadow: 0px 4px 5px 0px;
+}

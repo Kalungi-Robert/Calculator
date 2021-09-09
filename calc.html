@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Robert's Calculator</title>
+	<script src="app.js" type="text/JavaScript" lang="JavaScript" ></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="cal">
+
+<h1>Robert's Calculaotr</h1>
+
+<form name="calculator">
+	<input type="text" name="txt"> <br>
+	<button class="clrbtn" type="reset" value="Reset">Clear</button>
+	 <br>
+	<input class="btn" type="button" name="btn7" value="7" onClick="displynum(btn7.value)">
+	<input class="btn" type="button" name="btn8" value="8" onClick="displynum(btn8.value)">
+	<input class="btn" type="button" name="btn9" value="9" onClick="displynum(btn9.value)">
+	<input class="btn" type="button" name="addbtn" value="+" onClick="displynum(addbtn.value)"> <br> <br>
+	<input class="btn" type="button" name="btn4" value="4" onClick="displynum(btn4.value)">
+	<input class="btn" type="button" name="btn5" value="5" onClick="displynum(btn5.value)">
+	<input class="btn" type="button" name="btn6" value="6" onClick="displynum(btn6.value)">
+	<input class="btn" type="button" name="subbtn" value="-" onClick="displynum(subbtn.value)"> 
+	<br> <br>
+	<input class="btn" type="button" name="btn1" value="1" onClick="displynum(btn1.value)">
+	<input class="btn"  type="button" name="btn2" value="2" onClick="displynum(btn2.value)">
+	<input class="btn" type="button" name="btn3" value="3" onClick="displynum(btn3.value)">
+	<input class="btn" type="button" name="btnmul" value="*" onClick="displynum(btnmul.value)"> 
+	<br> <br>
+	<input class="btn" type="button" name="btn0" value="0" onClick="displynum(btn0.value)">
+	<input class="btn" type="button" name="potbtn" value="." onClick="displynum(potbtn.value)">
+	<input class="btn" type="button" name="eqlbtn=" value="=" onClick="txt.value=eval(txt.value)">
+	<input class="btn" type="button" name="divbtn" value="/" onClick="displynum(divbtn.value)">
+</form>
+
+</div>
+
+</body>
+</html>
